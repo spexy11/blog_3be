@@ -26,6 +26,16 @@ export default function Navbar() {
             Articles publiés
           </Link>
         </li>
+        <li>
+          <Link href="/blog/login" className="hover:text-gray-400">
+            connexion
+          </Link>
+        </li>
+        <li>
+          <Link href="/blog/register" className="hover:text-gray-400">
+            register
+          </Link>
+        </li>
       </ul>
     </nav>
   );
